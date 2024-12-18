@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Boomerang_sound.ogg-14499f01b2a6a98f9ad6445f48ab90a6.oggstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/Boomerang_sound.ogg"
+dest_files=[ "res://.import/Boomerang_sound.ogg-14499f01b2a6a98f9ad6445f48ab90a6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,37 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Custom Edited - Mario Customs - Grass Super Mario All-Stars Super Mario Bros 1 Expanded.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Custom Edited - Mario Customs - Grass Super Mario All-Stars Super Mario Bros 1 Expanded.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "GrassSimple.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "hexmini.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        }
+    },
+    "last.imagePath": "C:/Users/aran2/Downloads",
+    "map.height": 50,
+    "map.width": 50,
+    "openFiles": [
+        "Custom Edited - Mario Customs - Grass Super Mario All-Stars Super Mario Bros 1 Expanded.tsx"
+    ],
+    "project": "platformer tiles.tiled-project",
+    "recentFiles": [
+        "Custom Edited - Mario Customs - Grass Super Mario All-Stars Super Mario Bros 1 Expanded.tsx",
+        "GrassSimple.tsx",
+        "hexmini.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

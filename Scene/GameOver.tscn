@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/MainMenuButton.gd" type="Script" id=1]
+[ext_resource path="res://assets/theme/fonts/kenney_mini_square.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+outline_size = 4
+outline_color = Color( 0.584314, 0.2, 0.2, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 70
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="GameOver" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.87451, 0.45098, 0.45098, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 202.0
+margin_top = 43.0
+margin_right = 839.0
+margin_bottom = 178.0
+custom_colors/font_color = Color( 0.823529, 0.611765, 0.156863, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Game Over !"
+
+[node name="MainMenuButton" type="Button" parent="."]
+margin_left = 324.0
+margin_top = 262.0
+margin_right = 696.0
+margin_bottom = 387.0
+custom_colors/font_color = Color( 0.94902, 0.917647, 0.917647, 1 )
+custom_colors/font_color_hover = Color( 0.231373, 0.92549, 0.133333, 1 )
+custom_colors/font_color_pressed = Color( 0.0784314, 0.211765, 0.92549, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Main Menu"
+flat = true
+script = ExtResource( 1 )
+
+[connection signal="pressed" from="MainMenuButton" to="MainMenuButton" method="_on_MainMenuButton_pressed"]
