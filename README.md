@@ -12,12 +12,21 @@ You will find most of the demo’s content in the `Level.tscn` scene.
 You can open it from the default `Game.tscn` scene, or double
 click on `Level.tscn` in the `src/Level/` directory.
 
-We invite you to open the demo's GDScript files in the editor as
-they contain a lot of comments that explain how each class works.
-
 Language: GDScript
 
 Renderer: GLES 2
+
+Concept: Players follow Rex, a young tribal man on a quest to discover hidden treasure. Riding an ostrich, Rex must navigate treacherous obstacles and battle fierce creatures using his boomerang and agility. The objective is to overcome challenges and claim the ultimate prize.
+
+Genre: Adventure, Platformer, Action.
+
+Core Mechanics:
+
+Movement: Jumping, running, dodging.
+
+Combat: Use a boomerang to defeat enemies.
+
+Level Progression: Face increasing difficulty as you progress.
 
 ## Features
 
