@@ -38,11 +38,11 @@ Check out this demo on the asset library: https://godotengine.org/asset-library/
 
 ## Screenshots
 
-![Player shooting in the direction of an enemy](screenshots/shoot.png) 
 ![image](https://github.com/user-attachments/assets/bbbc5f61-a275-41c0-9586-59d56fb12ad7)
 
 
-![The entire level layout viewed in the editor](screenshots/layout.png)
+![image](https://github.com/user-attachments/assets/afc6de61-8428-4fbb-aee0-ccb736f2a1f4)
+
 
 ## Music
 
